@@ -1,0 +1,112 @@
+#
+#  Copyright (C) 2009 - 2011, Roni Zaharia - RZ Software Services
+# 
+# /*! 
+# This is the structured reporting dictionary.
+# Each line represents an entry in the data dictionary.  
+# Comments have a '#' at the beginning of the line.
+# Every entry has the following columns, separated by tab.
+#
+# Mandatory Columns
+# =================
+# The first three (3) columns are mandatory and are the minimum for defining a node in the SR Tree.
+#
+# Column 1: Code
+# --------------
+# The code uniquely identifies a node in the structured report tree.
+# This column is mandatory for every entry.
+#
+# Column 2: Designator
+# --------------------
+# The designator is the authority that is responsible for maintaining the code.
+# This column is mandatory for every entry.
+#
+# Column 3: Meaning
+# -----------------
+# This is the human readable description of the code.
+# This column is mandatory for every entry.
+#
+# Additional Columns
+# ==================
+# The additional columns are optional.
+# Use the reserved word "NULL" to skip empty columns, For example, to set Units without specifiing version and UID.
+#
+# Column 4: Type
+# --------------
+# The type column AKA "Value Type" can be any of the valid SR document value types:
+# -> TEXT
+# -> CODE
+# -> NUM
+# -> DATETIME
+# -> DATE
+# -> TIME
+# -> UIDREF
+# -> PNAME
+# -> SCOORD
+# -> TCOORD
+# -> COMPOSITE
+# -> IMAGE
+# -> WAVEFORM
+# -> CONTAINER
+#
+# Value Type specific behavior when adding nodes
+# ----------------------------------------------
+# When adding a "CONTAINER", the next node will be added as a child for that container.
+# To close the container, call UpOneLevel.
+#
+# When adding a "NUM", units are automatically added if specified.
+# 
+# Column 5: Version
+# -----------------
+# The version is an optional attribute further specializing the code.
+# The ocde is unique within the dictionary and the version does not exend the key, only further describes it.
+#
+# Column 6: UID
+# -------------
+# Unique Identifier of the code, further identifing the code.
+#
+# Column 7: Units
+# ---------------
+# When the value type (Column 4) is NUM (Numeric) and Units are specified, the Units are automatically added when adding the code using AddDictValue.
+# Referencial integrity of the units column is enforeced at runtime when attempting to add the code but not when loading the dictionary.
+# If units are not specified for entry of type NUM, then the units must be explicitly set in runtime by using AddDictNumericValue. 
+# In this case one should not use AddDictValue for this entry.
+# 
+# Column 8: Relationship
+# ----------------------
+# The relationship may be one of the valid values for SR Relation Types, enclosed by double quotes ("):
+# The SR Relation Types currently defined in the standard are:
+# -> "CONTAINS"
+# -> "HAS OBS CONTEXT" meaning Has Observation Context
+# -> "HAS ACQ CONTEXT" meaning Has Aquisition Context
+# -> "HAS CONCEPT MOD" meaning Has Concept Modifier
+# -> "HAS PROPERTIES"
+# -> "INFERRED FROM" 
+# -> "SELECTED FROM"
+# 
+# There is not validation on the actual string that is inserted.
+# Relationship in the dictionary refers to the parent node.
+# This means that if an entry has for example a relationship type of "Has Concept Modifier"
+# then the entry further describes its parent node.
+# If a relationship type is defined, then it is automatically added to the document tree.
+#
+# Code	Designator	Meaning						Type		Version	UID		Units			Relationship*
+# ====	==========	=======						=========	=======	===		=====			============= 
+
+209239	99PMP		"Epicenter"					SCOORD		NULL	NULL	NULL			"CONTAINS"
+209074	99PMP		"Diagnostic Imaging Report"	CONTAINER	NULL	NULL	NULL			NULL
+121070	DCM			"Findings"					CONTAINER	NULL	NULL	NULL			"CONTAINS"
+G-C0E3	SRT			"Finding Site"				CODE		NULL	NULL	NULL			"HAS CONCEPT MOD"
+T-35300	SRT			"Mitral Valve"
+G-0380	SRT			"Right Ventricular Peak Systolic Pressure"	NUM	NULL	NULL	mm[Hg]	"CONTAINS"	
+mm		UCUM		"millimeter"				UNITS		1.4
+cm2		UCUM		"centimeter squared"		UNITS		1.4
+mm[Hg]  UCUM		"millimeter of mercury"		UNITS
+109041	DCM			"P Wave"					TCOORD		NULL	NULL	NULL			"CONTAINS"
+121018	DCM			"Procedure Study Instance UID"	UIDREF	NULL	NULL	NULL			"HAS ACQ CONTEXT"
+121080	DCM			"Best illustration of finding"	IMAGE	NULL	NULL	NULL	"CONTAINS"
+121112	DCM			"Source of Measurement"		WAVEFORM	NULL	NULL	NULL	"CONTAINS"
+
+#
+# EOF
+#

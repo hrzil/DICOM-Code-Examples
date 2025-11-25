@@ -1,0 +1,7 @@
+#
+# Tag		VR	Name			VM	Version
+#
+(0027,0000)	UL	SamplePrivateGrpLength	1	RZDCX
+(0027,0010)	LO	SamplePrivateCreator	1	RZDCX
+(0027,1001)	US	SamplePrivateTag1001	1	RZDCX
+(0027,1002)	CS	SamplePrivateTag1002	1	RZDCX

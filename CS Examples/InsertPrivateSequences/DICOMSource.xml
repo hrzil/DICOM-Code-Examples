@@ -1,0 +1,54 @@
+﻿<DICOM>
+  <Item TagName="PerformedProcedureStepStartDate" IsMeta="false" ID="78" Tag="4194884" Length="8" VR="DA">20140303</Item>
+  <Item TagName="PerformedProcedureStepStartTime" IsMeta="false" ID="79" Tag="4194885" Length="6" VR="TM">100900</Item>
+  <Item TagName="PerformedProcedureStepID" IsMeta="false" ID="80" Tag="4194899" Length="16" VR="SH">20140303.100900</Item>
+  <Item TagName="PerformedProcedureStepDescription" IsMeta="false" ID="81" Tag="4194900" Length="0" VR="LO"></Item>
+  <Item TagName="CommentsOnThePerformedProcedureStep" IsMeta="false" ID="82" Tag="4194944" Length="10" VR="ST">Adult Echo</Item>
+  <Item TagName="?" IsMeta="false" ID="83" Tag="536936464" Length="22" VR="LO">Philips Imaging DD 001</Item>
+  <Item TagName="?" IsMeta="false" ID="84" Tag="536940643" Length="10" VR="CS">ELSEWHERE</Item>
+  <Item TagName="?" IsMeta="false" ID="85" Tag="537722912" Length="26" VR="LO">Philips US Imaging DD 017</Item>
+  <Item TagName="?" IsMeta="false" ID="86" Tag="537722918" Length="26" VR="LO">Philips US Imaging DD 023</Item>
+  <Item TagName="?" IsMeta="false" ID="87" Tag="537722928" Length="26" VR="LO">Philips US Imaging DD 033</Item>
+  <Item TagName="?" IsMeta="false" ID="88" Tag="537722937" Length="26" VR="LO">Philips US Imaging DD 042</Item>
+  <Item TagName="?" IsMeta="false" ID="89" Tag="537722938" Length="26" VR="LO">Philips US Imaging DD 043</Item>
+  <Item TagName="?" IsMeta="false" ID="90" Tag="537722940" Length="26" VR="LO">Philips US Imaging DD 045</Item>
+  <Item TagName="?" IsMeta="false" ID="91" Tag="537722961" Length="26" VR="LO">Philips US Imaging DD 066</Item>
+  <Item TagName="?" IsMeta="false" ID="92" Tag="537731077" Length="6" VR="LO">native</Item>
+  <Item TagName="?" IsMeta="false" ID="93" Tag="537732663" Length="8" VR="DA">20140303</Item>
+  <Item TagName="?" IsMeta="false" ID="94" Tag="537732664" Length="6" VR="TM">100859</Item>
+  <Item TagName="?" IsMeta="false" ID="95" Tag="537735168" Length="235546" VR="OB">226748232</Item>
+  <Item TagName="?" IsMeta="false" ID="96" Tag="537735183" Length="1296" VR="OB">226276968</Item>
+  <Item TagName="?" IsMeta="false" ID="97" Tag="537735188" Length="2" VR="IS">1</Item>
+  <Item TagName="?" IsMeta="false" ID="98" Tag="537737493" Length="2" VR="IS">0</Item>
+  <Item TagName="?" IsMeta="false" ID="99" Tag="537737494" Length="8" VR="FD">0</Item>
+  <Item TagName="?" IsMeta="false" ID="100" Tag="537737733" Length="8" VR="SH">ACCEPTED</Item>
+  <Item TagName="?" IsMeta="false" ID="478" Tag="537743616" Length="2586" VR="OB">228019928</Item>
+  <Sequence TagName="SequenceOfUltrasoundRegions" IsMeta="false" ID="46" Tag="1597457" Length="148" VR="SQ">
+    <Item TagName="RegionSpatialFormat" IsMeta="false" ID="47" Tag="1597458" Length="2" VR="US">1</Item>
+    <Item TagName="RegionDataType" IsMeta="false" ID="48" Tag="1597460" Length="2" VR="US">1</Item>
+    <Item TagName="RegionFlags" IsMeta="false" ID="49" Tag="1597462" Length="4" VR="UL">2</Item>
+    <Item TagName="RegionLocationMinX0" IsMeta="false" ID="50" Tag="1597464" Length="4" VR="UL">52</Item>
+    <Item TagName="RegionLocationMinY0" IsMeta="false" ID="51" Tag="1597466" Length="4" VR="UL">62</Item>
+    <Item TagName="RegionLocationMaxX1" IsMeta="false" ID="52" Tag="1597468" Length="4" VR="UL">630</Item>
+    <Item TagName="RegionLocationMaxY1" IsMeta="false" ID="53" Tag="1597470" Length="4" VR="UL">474</Item>
+    <Item TagName="PhysicalUnitsXDirection" IsMeta="false" ID="54" Tag="1597476" Length="2" VR="US">3</Item>
+    <Item TagName="PhysicalUnitsYDirection" IsMeta="false" ID="55" Tag="1597478" Length="2" VR="US">3</Item>
+    <Item TagName="PhysicalDeltaX" IsMeta="false" ID="56" Tag="1597484" Length="8" VR="FD">0.0414982209479355</Item>
+    <Item TagName="PhysicalDeltaY" IsMeta="false" ID="57" Tag="1597486" Length="8" VR="FD">0.0414982209479355</Item>
+  </Sequence>
+  <Sequence TagName="?" IsMeta="false" ID="101" Tag="537738484" Length="20464572" VR="SQ">
+    <Item TagName="?" IsMeta="false" ID="102" Tag="537722928" Length="26" VR="LO">Philips US Imaging DD 033</Item>
+    <Item TagName="?" IsMeta="false" ID="103" Tag="537722940" Length="26" VR="LO">Philips US Imaging DD 045</Item>
+    <Item TagName="?" IsMeta="false" ID="104" Tag="537735181" Length="28" VR="LO">UDM_USD_DATATYPE_DIN_2D_ECHO</Item>
+    <Sequence TagName="1&gt;?" IsMeta="false" ID="105" Tag="537738481" Length="20060808" VR="SQ">
+      <Item TagName="1&gt;?" IsMeta="false" ID="106" Tag="537722928" Length="26" VR="LO">Philips US Imaging DD 033</Item>
+      <Item TagName="1&gt;?" IsMeta="false" ID="107" Tag="537722940" Length="26" VR="LO">Philips US Imaging DD 045</Item>
+      <Item TagName="1&gt;?" IsMeta="false" ID="108" Tag="537735184" Length="4" VR="IS">237</Item>
+      <Item TagName="1&gt;?" IsMeta="false" ID="109" Tag="537735185" Length="6" VR="IS">259648</Item>
+      <Item TagName="1&gt;?" IsMeta="false" ID="110" Tag="537735201" Length="2" VR="IS">0</Item>
+      <Item TagName="1&gt;?" IsMeta="false" ID="111" Tag="537738483" Length="20056868" VR="OB">276914208</Item>
+      <Item TagName="1&gt;?" IsMeta="false" ID="112" Tag="537738490" Length="4" VR="CS">ZLib</Item>
+      <Item TagName="1&gt;?" IsMeta="false" ID="113" Tag="537738491" Length="3792" VR="OB">227196304</Item>
+    </Sequence>
+  </Sequence>
+</DICOM>
