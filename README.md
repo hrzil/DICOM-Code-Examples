@@ -1,3 +1,12 @@
+MODALIZER SDK Code Examples
+===========================
+
+Disclaimer:
+This repository supplies code samples of MODALIZER-SDK usage in C++, C# and Powershell (in their respective folders).
+All of the samples below require the MODALIZER-SDK to run. 
+The SDK itself is proprietary and not included in this repository.
+Get the SDK only from our downloads site: https://downloads.hrzkit.com/MODALIZER-SDK/
+
 MODALIZER SDK C++ Examples
 ==========================
 
@@ -37,7 +46,7 @@ MODALIZER SDK C# Examples
 
 To build the examples in this archive please do the following:
 
-1. Download MODALIZER-SDK latest release from http://downloads.roniza.com/modalizer-sdk
+1. Download MODALIZER-SDK latest release from https://downloads.hrzkit.com/MODALIZER-SDK/
 
 2. Extract the zip MODALIZER-SDK archive to a folder next to the examples. 
 
@@ -66,8 +75,7 @@ MODALIZER SDK PowerShell Examples
 
 To run the examples in this archive please do the following:
 
-1. Download MODALIZER-SDK latest release from http://downloads.roniza.com/modalizer-sdk
-
+1. Download MODALIZER-SDK latest release from https://downloads.hrzkit.com/MODALIZER-SDK/
 2. Extract the zip MODALIZER-SDK archive. 
 
 3. regsvr32 the SDK: 
