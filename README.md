@@ -21,6 +21,8 @@ To build the examples in this archive please do the following:
 
 2. Extract the zip MODALIZER-SDK archive to a folder next to the examples. 
 
+3. Run "install.bat" as an administrator (right click "install.bat" and select "Run as aministrator")
+   
 You should have the following directory structure:
 
 <...>\MODALIZER-SDK
@@ -33,13 +35,7 @@ You should have the following directory structure:
 
 3. Extract the zip CppExampleData archive to the folder next to the examples (so subfolders of the zip merge with the projects folders)
 
-4. regsvr32 the SDK: 
-From a command line with admin rights run the following:
-
-regsvr32 <...>\MODALIZER-SDK\win32\rzdcx.dll
-regsvr32 <...>\MODALIZER-SDK\x64\rzdcx.dll
-
-5. Open the solution file CPPRZDCXExamples.sln using Visual Studio (2019) and build it using the default configuration (Debug|Win32).
+4.Open the solution file CPPRZDCXExamples.sln using Visual Studio (2019) and build it using the default configuration (Debug|Win32).
 
 MODALIZER SDK C# Examples
 =========================
@@ -48,7 +44,7 @@ To build the examples in this archive please do the following:
 
 1. Download MODALIZER-SDK latest release from https://downloads.hrzkit.com/MODALIZER-SDK/
 
-2. Extract the zip MODALIZER-SDK archive to a folder next to the examples. 
+2.Run "install.bat" as an administrator (right click "install.bat" and select "Run as aministrator"). 
 
 You should have the following directory structure:
 
@@ -62,13 +58,7 @@ You should have the following directory structure:
 
 3. Extract the zip CsExampleData archive to the folder next to the examples (so subfolders of the zip merge with the projects folders)
 
-4. regsvr32 the SDK: 
-From a command line with admin rights run the following:
-
-regsvr32 <...>\MODALIZER-SDK\win32\rzdcx.dll
-regsvr32 <...>\MODALIZER-SDK\x64\rzdcx.dll
-
-5. Open the solution file CSharpRZDCXExamples.sln using Visual Studio (2019) and build it using the default configuration (Debug|Win32).
+4. Open the solution file CSharpRZDCXExamples.sln using Visual Studio (2019) and build it using the default configuration (Debug|Win32).
 
 MODALIZER SDK PowerShell Examples
 =================================
@@ -76,12 +66,7 @@ MODALIZER SDK PowerShell Examples
 To run the examples in this archive please do the following:
 
 1. Download MODALIZER-SDK latest release from https://downloads.hrzkit.com/MODALIZER-SDK/
-2. Extract the zip MODALIZER-SDK archive. 
 
-3. regsvr32 the SDK: 
-From a command line with admin rights run the following:
+2. Run "install.bat" as an administrator (right click "install.bat" and select "Run as aministrator")
 
-regsvr32 <...>\MODALIZER-SDK\win32\rzdcx.dll
-regsvr32 <...>\MODALIZER-SDK\x64\rzdcx.dll
-
-4. Open the scripts using PowerShell ISE, change parameters according to your needs and run it.
+3. Open the scripts using PowerShell ISE, change parameters according to your needs and run it.
