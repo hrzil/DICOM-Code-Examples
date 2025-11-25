@@ -1,14 +1,12 @@
-MODALIZER SDK Code Examples
-===========================
+DICOM Networking and Data Handling Examples
+===========================================
 
 Disclaimer:
-This repository supplies code samples of MODALIZER-SDK usage in C++, C# and Powershell (in their respective folders).
-All of the samples below require the MODALIZER-SDK to run. 
+This repository contains example code using the MODALIZER-SDK.
 The SDK itself is proprietary and not included in this repository.
-Get the SDK only from our downloads site: https://downloads.hrzkit.com/MODALIZER-SDK/
 
-MODALIZER SDK C++ Examples
-==========================
+C++ DICOM Examples build instructions
+=====================================
 
 All MODALIZER-SDK C++ examples imports the TLB file that is embeded in rzdcx.dll and assume that it is located in a folder parallel to the examples folder.
 You can see this line in all examples:
@@ -37,8 +35,8 @@ You should have the following directory structure:
 
 4.Open the solution file CPPRZDCXExamples.sln using Visual Studio (2019) and build it using the default configuration (Debug|Win32).
 
-MODALIZER SDK C# Examples
-=========================
+C# DICOM Examples build instructions
+====================================
 
 To build the examples in this archive please do the following:
 
