@@ -17,7 +17,7 @@ You can see this line in all examples:
 
 To build the examples in this archive please do the following:
 
-1. Download MODALIZER-SDK latest release from http://downloads.roniza.com/modalizer-sdk
+1. Download MODALIZER-SDK latest release from https://downloads.hrzkit.com/MODALIZER-SDK/
 
 2. Extract the zip MODALIZER-SDK archive to a folder next to the examples. 
 
