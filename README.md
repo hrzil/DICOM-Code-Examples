@@ -54,12 +54,19 @@ To build the examples in this archive please do the following:
 You should have the following directory structure:
 
 <...>\MODALIZER-SDK
+
 <...>\MODALIZER-SDK\win32
+
 ...
+
 <...>\ExportCPP\CPPRZDCXExamples.sln
+
 <...>\ExportCPP\CPPCreateDICOMDIR
+
 <...>\ExportCPP\CPPCreateImageExample
+
 ...
+
 
 3. Extract the zip CsExampleData archive to the folder next to the examples (so subfolders of the zip merge with the projects folders)
 
