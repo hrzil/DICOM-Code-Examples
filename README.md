@@ -2,8 +2,12 @@ DICOM Networking and Data Handling Examples
 ===========================================
 
 Disclaimer:
-This repository contains example code using the MODALIZER-SDK.
+This repository contains useful [DICOM](https://www.dicomstandard.org) code examples using [MODALIZER-SDK](https://www.hrzkit.com/products/modalizer-sdk/) by H.R.Z.
+There are C++, C# and PowerShell examples.
+
 The SDK itself is proprietary and not included in this repository.
+
+For more information of check [the complete MODALIZER-SDK DICOM Library reference manual](https://modalizer-sdk.hrzkit.com).
 
 C++ DICOM Examples build instructions
 =====================================
