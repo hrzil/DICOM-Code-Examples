@@ -5,7 +5,9 @@ Disclaimer:
 This repository contains useful [DICOM](https://www.dicomstandard.org) code examples using [MODALIZER-SDK](https://www.hrzkit.com/products/modalizer-sdk/) by H.R.Z.
 There are C++, C# and PowerShell examples.
 
-The SDK itself is proprietary and not included in this repository.
+Note that the examples in this repo comes with an [MIT license](/LICENSE) but MODALIZER-SDK itself is a proprietary comercial software and not included in this repository. 
+
+These examples are useful because the SDK allows 100 API calls before enforcing the license restrictions so you will be able to build and run the examples.
 
 For more information of check [the complete MODALIZER-SDK DICOM Library reference manual](https://modalizer-sdk.hrzkit.com).
 
